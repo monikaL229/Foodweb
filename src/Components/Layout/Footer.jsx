@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-200 text-black py-12">
       
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
@@ -10,10 +11,12 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="hover:text-indigo-500">Home</a></li>
-              <li><a href="#about" className="hover:text-indigo-500">About Us</a></li>
-              <li><a href="#menu" className="hover:text-indigo-500">Menu</a></li>
-              <li><a href="#contact" className="hover:text-indigo-500">Contact Us</a></li>
+              <li> <Link to="/" className="hover:text-orange-500">Home</Link></li>
+              <li>  <Link to="/menu" className="hover:text-orange-500"> Menu</Link></li>
+              <li><Link to="/about" className="hover:text-orange-500">About Us</Link></li>
+          
+              <li> <Link to="/blog" className="hover:text-orange-500"> Blog</Link></li>
+              <li><Link to="/contact" className="hover:text-orange-500">Contact Us</Link></li>
             </ul>
           </div>
 

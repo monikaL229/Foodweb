@@ -15,19 +15,19 @@ const Header = () => {
       </div>
 
       <nav className="hidden lg:flex space-x-8 font-Archivo text-lg">
-      <Link to="/" className="text-xl py-4 transform  animate-fadeIn delay-300">
+      <Link to="/" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
           Home
         </Link>
-        <Link to="/menu" className="text-xl py-4 transform  animate-fadeIn delay-300">
+        <Link to="/menu" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
         Menu
         </Link>
-        <Link to="/about" className="text-xl py-4 transform  animate-fadeIn delay-300">
+        <Link to="/about" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
       About        </Link>
         
-        <Link to="/blog" className="text-xl py-4 transform  animate-fadeIn delay-300">
+        <Link to="/blog" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
           Blog
         </Link>
-        <Link to="/contact" className="text-xl py-4 transform  animate-fadeIn delay-300">
+        <Link to="/contact" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
           Contact Us
         </Link>
       </nav>

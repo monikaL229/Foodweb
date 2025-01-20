@@ -36,22 +36,23 @@ const About = () => {
 
         <div className='grid grid-cols-2 gap-4 w-full '>
     <div className="bg-white  rounded-lg shadow-lg hover:shadow-xl transform transition-all duration-300 hover:scale-105">
-        <div className='flex flex-col text-4xl text-center p-4'>3</div>
+    <div className='flex flex-col text-center p-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl'>
+    3</div>
         <div className='text-sm text-center'>Locations</div>
     </div>
 
     <div className="bg-white rounded-lg shadow-lg hover:shadow-xl transform transition-all duration-300 hover:scale-105">
-        <div className='flex flex-col text-4xl text-center p-4'>1995</div>
+        <div className='flex flex-col  text-center p-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl'>1995</div>
         <div className='text-sm text-center'> Founded</div>
     </div>
 
     <div className="bg-white  rounded-lg shadow-lg hover:shadow-xl transform transition-all duration-300 hover:scale-105">
-        <div className='flex flex-col text-4xl text-center p-4'>65+</div>
+        <div className='flex flex-col  text-center p-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl'>65+</div>
         <div className='text-sm text-center'> Staff Members</div> 
     </div>
 
     <div className="bg-white  rounded-lg shadow-lg hover:shadow-xl transform transition-all duration-300 hover:scale-105">
-        <div className='flex flex-col text-4xl text-center p-4'>100%</div>
+        <div className='flex flex-col text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center p-4'>100%</div>
         <div className='text-sm text-center'>   Satisfied Customers</div>
     </div>
 </div>
