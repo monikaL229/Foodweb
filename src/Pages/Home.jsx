@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+
 import s1 from "../Accets/s1.jpeg";
 import s2 from "../Accets/s2.jpeg";
 import s3 from "../Accets/s3.jpeg";
@@ -48,7 +49,6 @@ const Home = () => {
     },
   ];
 
-
   const [isVisible, setIsVisible] = useState(false);
   const [fadeIn, setFadeIn] = useState(false);
   const [slideUp, setSlideUp] = useState(false);
@@ -96,7 +96,7 @@ const Home = () => {
           <p className="py-4 text-gray-600 text-lg">
             Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance.
           </p>
-          <p className="py-4 text-gray-600">
+          <p className="py-4 text-gray-600 text-lg">
             At our place, we believe that dining is not just about food, but also about the overall experience.
           </p>
           <button className="px-4 py-2 mt-4 bg-gray-200 border-2 border-black rounded-full text-black hover:bg-orange-500 transition-colors">

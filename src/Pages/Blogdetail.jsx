@@ -14,7 +14,7 @@ const Blogdetail = () => {
         </p>
         </div> 
 
-      <div className=" max-w-2xl mx-auto mt-6" >
+      <div className="max-w-2xl mx-auto mt-6" >
      <img src={b14} className='w-full h-auto'/>
      </div>
      <div className='p-4'>
