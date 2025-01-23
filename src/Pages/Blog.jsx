@@ -101,7 +101,7 @@ const Blog = () => {
   return (
     <>
     <Header/>
-    <div className='max-w-[1640px] m-auto px-4 py-12'>
+    <div className='max-w-[1640px] mx-auto px-4 py-12'>
     <div className='bg-gray-100 p-6 max-w-2xl mx-auto flex flex-col justify-center items-center'>
         <h2 className='text-black text-6xl p-4 font-semibold text-center'>Our Blog & Articals</h2>
         <p className='py-4 text-gray-600 text-lg text-center'>

@@ -3,13 +3,12 @@ import Header from '../Components/Layout/Header';
 import about from '../Accets/about.png'
 import about1 from '../Accets/about1.png'
 import Footer from '../Components/Layout/Footer';
-import Review from './Review'
 
 const About = () => {
   return (
     <>
     <Header/>
-    <div className="flex flex-col lg:flex-row p-4 bg-gray-200">
+    <div className="flex flex-col lg:flex-row p-4 bg-gray-200  mt-12">
 
     <div className="flex w-full lg:w-1/2 justify-center">
     
@@ -66,7 +65,6 @@ const About = () => {
 
     </div>
 </div>
-<Review/>
 <Footer/>
 
    </>

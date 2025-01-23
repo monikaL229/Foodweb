@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <>
-        <header className="max-w-[1600px] mx-auto flex justify-between items-center p-4">
+        <header className="max-w-[1600px] mx-auto flex justify-between items-center p-4 bg-gray-300">
        <div className="flex items-center">
          <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
          Best <span className="font-bold">Eats</span>
@@ -15,19 +15,19 @@ const Header = () => {
       </div>
 
       <nav className="hidden lg:flex space-x-8 font-Archivo text-lg">
-      <Link to="/" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
+      <Link to="/" className="text-2xl py-4  hover:text-orange-700">
           Home
         </Link>
-        <Link to="/menu" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
+        <Link to="/menu" className="text-2xl py-4  hover:text-orange-700">
         Menu
         </Link>
-        <Link to="/about" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
+        <Link to="/about" className="text-2xl py-4  hover:text-orange-700">
       About        </Link>
         
-        <Link to="/blog" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
+        <Link to="/blog" className="text-2xl py-4  hover:text-orange-700">
           Blog
         </Link>
-        <Link to="/contact" className="text-xl py-4 transform  animate-fadeIn delay-300 hover:text-orange-700">
+        <Link to="/contact" className="text-2xl py-4  hover:text-orange-700">
           Contact Us
         </Link>
       </nav>
